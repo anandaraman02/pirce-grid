@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Karla', sans-serif;
+    font-size: 16px;
+    background-color: hsl(216, 64%, 92%);
+    display: grid;
+   justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+   
+.main{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right:250px ;
+    
+   
+}
+.home{
+    background-color:rgb(254, 253, 253) ;
+    grid-column: 1/4;
+   
+    width: 600px;
+}
+.heading{
+color: hsl(179, 62%, 45%);
+padding: 2rem;
+}
+.sub-heading{
+color: hsl(71, 82%, 55%);
+margin-left: 30px;
+}
+.paragraph{
+    color: hsla(206, 10%, 48%, 0.464);
+   margin-left: 25px;
+   margin-top: 10px;  
+   margin-bottom: 20px;
+}
+.paragraph1{
+    color: hsl(206, 77%, 75%);
+   margin-left: 25px;
+   margin-top: 20px;  
+}
+h3{
+ margin: 10px;
+}
+span{
+    font-size: 30px;
+    color: white;
+    margin-left: -20px;
+}
+.paragraph2{
+    padding: 5px;
+}
+button{
+   background-color: hsl(71, 86%, 55%);
+   border-color:hsl(71, 73%, 54%) ;
+   color: white; 
+    width: 250px;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.price{
+background-color: hsl(179, 62%, 43%);
+color: white;
+padding: 20px;
+width: 300px;
+}
+.about{
+background-color:hsl(179, 48%, 50%) ;
+color: white;
+padding: 20px;
+width: 300px;
+}
+h5{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size:1.1rem;
+}
+.paragraph3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color:hsl(0, 0%, 89%) ;
+}
+
